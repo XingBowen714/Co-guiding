@@ -312,7 +312,7 @@ class Processor(object):
                 if no_improve > self.args.patience:
                     print('early stop at epoch {}'.format(epoch))
                     break
-        print('best slot f1: {:.6f}, best intent acc: {:.6f}, best semntic acc: {:.6f} '.format(accepted_test_slot_f1, accpeted_test_intent_acc, accepted_test_sent_acc) )
+        print('best slot f1: {:.6f}, best intent acc: {:.6f}, best semntic acc: {:.6f} '.format(accepted_test_slot_f1, accepted_test_intent_acc, accepted_test_sent_acc) )
 
         print('Best dev epoch is {}'.format(best_epoch))
 
